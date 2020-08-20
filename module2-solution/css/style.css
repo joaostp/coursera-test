@@ -67,8 +67,8 @@ p {
 /************** Small devices only ******************/
 @media (max-width: 767px){
 	.sectionDiv {
-		width: 95.5%;
-		margin-left: 2.25%;
+		width: 80%;
+		margin-left: 10%;
 	}
 	#sectiondiv2 {
 		clear: left;
