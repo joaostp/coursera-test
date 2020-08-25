@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#headerNav {
+	background-color: #A6ACAF;
+}
+#main-content {
+	background-color: #A6ACAF;
+	padding: 10px;
+	margin: 0 15px;
+}
+#main-content > div > h3 {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#nav-list {
+	text-align: center;
+}
+.list-border {
+	border-bottom: 2px solid #000000;
+}
+
+/************** Extra Small devices only ******************/
+@media (max-width: 767px) {
+	#main-content {
+		margin: 0 100px;
+    }
+}
+
+
